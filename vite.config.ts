@@ -3,7 +3,6 @@ import vue from "@vitejs/plugin-vue";
 import vueJsx from "@vitejs/plugin-vue-jsx";
 import { resolve } from "node:path";
 import { visualizer } from "rollup-plugin-visualizer";
-import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 import "dotenv/config";
 
@@ -17,7 +16,6 @@ export default defineConfig({
         },
       },
     }),
-    nodePolyfills(),
     visualizer({
       gzipSize: true,
       brotliSize: true,
@@ -30,14 +28,12 @@ export default defineConfig({
     chunkSizeWarningLimit: 1024,
     rollupOptions: {
       output: {
-        manualChunks: {
-          "function-plot": ["function-plot"],
-          prettier: [
-            "prettier",
-            "prettier/plugins/babel",
-            "prettier/plugins/estree",
-          ],
-          vendor: ["vue", "pinia", "vue-i18n", "vue-draggable-plus"],
+        manualChunks(id) {
+          if (id.includes("node_modules")) {
+            if (id.includes("/function-plot/")) return "function-plot";
+            if (id.includes("/prettier/")) return "prettier";
+            return "vendor";
+          }
         },
       },
     },
