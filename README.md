@@ -1,6 +1,6 @@
 # Function-Plot-GUI
 
-[![Deploy site to Pages](https://github.com/Linho1219/function-plot-GUI/actions/workflows/deploy.yml/badge.svg)](https://github.com/Linho1219/function-plot-GUI/actions/workflows/deploy.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Linho1219/function-plot-GUI)
+[![Deploy site to Pages](https://github.com/Linho1219/function-plot-gui/actions/workflows/deploy.yml/badge.svg)](https://github.com/Linho1219/function-plot-gui/actions/workflows/deploy.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Linho1219/function-plot-gui)
 
 [中文文档](./README_zh-CN.md)
 
@@ -14,7 +14,7 @@ Function-plot accepts configuration options via a JavaScript object. Function-Pl
 
 Tools like GeoGebra and Desmos offer more powerful plotting capabilities, additional assistive features, and support for exporting to various image formats. If you're looking for a drawing tool primarily for teaching or learning purposes, they are likely better suited for your needs.
 
-GeoGebra provides comprehensive deployment options and APIs, but setting it up and integrating it into a web service can be quite complex. Desmos is not open-source, which means you cannot self-host it. If you want to embed its graphs in your own site, you're limited to using the iframe they provide. Relying on external services can introduce additional maintenance overhead and potential instability. Therefore, using Function-Plot-GUI for editing and the function-plot library for rendering is a solid alternative. Configuration files can be written in plain text formats like JSON, JSON5, or YAML — and even embedded directly into Markdown files using custom syntax. The documentation site [LinhoNotes](https://notes.linho.cc/) adopts this approach.
+GeoGebra provides comprehensive deployment options and APIs, but setting it up and integrating it into a web service can be quite complex. Desmos is not open-source, which means you cannot self-host it. If you want to embed its graphs in your own site, you're limited to using the iframe they provide. Relying on external services can introduce additional maintenance overhead and potential instability. Therefore, using Function-Plot-GUI for editing and the Function-Plot library for rendering is a solid alternative. Configuration files can be written in plain text formats like JSON, JSON5, or YAML — and even embedded directly into Markdown files using custom syntax. The documentation site [LinhoNotes](https://notes.linho.cc/) adopts this approach.
 
 ## Integrating with Your Application
 

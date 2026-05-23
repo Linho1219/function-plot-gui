@@ -64,7 +64,7 @@ import SIconGtihub from "@/ui/icons/github.vue";
 import SIconAutoTheme from "@/ui/icons/autotheme.vue";
 
 const openGithub = () =>
-  window.open("https://github.com/Linho1219/function-plot-GUI");
+  window.open("https://github.com/Linho1219/function-plot-gui");
 
 const emit = defineEmits(["toggleDrawer"]);
 

@@ -1,6 +1,6 @@
 # Function-Plot-GUI
 
-[![Deploy site to Pages](https://github.com/Linho1219/function-plot-GUI/actions/workflows/deploy.yml/badge.svg)](https://github.com/Linho1219/function-plot-GUI/actions/workflows/deploy.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Linho1219/function-plot-GUI)
+[![Deploy site to Pages](https://github.com/Linho1219/function-plot-gui/actions/workflows/deploy.yml/badge.svg)](https://github.com/Linho1219/function-plot-gui/actions/workflows/deploy.yml) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Linho1219/function-plot-gui)
 
 [English README](./README.md)
 
@@ -14,7 +14,7 @@ Function-plot 通过一个 JS 对象传入选项。Function-plot-GUI 提供了�
 
 GeoGebra/Desmos 等工具拥有更强大的绘制能力、更多的辅助功能，并且支持导出为多样的图像格式。如果你只是需要一个教学用的绘图工具，它们是更好的选择。
 
-GeoGebra 提供完善的部署方案与 API，但部署和集成到 Web 服务中相当复杂。Desmos 不是开源的，这意味着你无法自行部署，如果要将图像嵌入你的网页，只能用他们提供的 `iframe`。依赖外部服务会带来更多的维护成本和不可靠性。因此，使用 function-plot-GUI 编辑、使用 function-plot 库绘制是一个不错的选择。并且配置文件可以以 JSON/JSON5/YAML 等纯文本格式书写，甚至还能通过定义一些私有语法直接放在 Markdown 文件中渲染。文档仓库 [LinhoNotes](https://notes.linho.cc/) 便采用此路线。
+GeoGebra 提供完善的部署方案与 API，但部署和集成到 Web 服务中相当复杂。Desmos 不是开源的，这意味着你无法自行部署，如果要将图像嵌入你的网页，只能用他们提供的 `iframe`。依赖外部服务会带来更多的维护成本和不可靠性。因此，使用 Function-Plot-GUI 编辑、使用 Function-Plot 库绘制是一个不错的选择。并且配置文件可以以 JSON/JSON5/YAML 等纯文本格式书写，甚至还能通过定义一些私有语法直接放在 Markdown 文件中渲染。文档仓库 [LinhoNotes](https://notes.linho.cc/) 便采用此路线。
 
 ## 接入你的应用
 
