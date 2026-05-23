@@ -46,9 +46,6 @@ export default defineConfig({
       },
     ],
   },
-  esbuild: {
-    drop: process.env.NODE_ENV === "production" ? ["console", "debugger"] : [],
-  },
   server: {
     allowedHosts: [process.env.DEVHOST ?? "localhost"],
   },
