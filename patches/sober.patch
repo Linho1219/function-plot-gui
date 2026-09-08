@@ -1,5 +1,5 @@
 diff --git a/dist/popup.js b/dist/popup.js
-index 44ca9cc8adfe7d887eca0d6640023442df6a2b50..999be5e20117655a479eeb808695ca75be215314 100644
+index 4e43272dcf60a8c5580c85ba71efbf3e8b2765fc..7eb9ebc735b76cf8267f469f7d8b1d66aee408fb 100644
 --- a/dist/popup.js
 +++ b/dist/popup.js
 @@ -37,6 +37,7 @@ dialog::backdrop{
@@ -11,7 +11,7 @@ index 44ca9cc8adfe7d887eca0d6640023442df6a2b50..999be5e20117655a479eeb808695ca75
  .container{
    display: block;
 diff --git a/dist/ripple.js b/dist/ripple.js
-index ec5557b80470a19dad7f406f64d58dc1842ca2c2..1ce051673bba1d7b1901fe9405c158c550161075 100644
+index fa7d861ed4a578d23cb33b69d8d1d9f6f545c465..477db8912c85947887f24be876f870fcc443868a 100644
 --- a/dist/ripple.js
 +++ b/dist/ripple.js
 @@ -40,7 +40,7 @@ const style = /*css*/ `

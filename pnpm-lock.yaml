@@ -6,7 +6,7 @@ settings:
 
 patchedDependencies:
   function-plot: fb8f97d14b4b32cb82e4df4d0ebb76887cbdba0403c2782ef0e78ded510fed08
-  sober: 21ec38e19899040c56bf7b01de62686d0a9abf7cb8d400d9baa1e212e2f8429d
+  sober: 210049186427659464cebd44889644eafc812d7376452d4c880a0d82dd7488b6
 
 importers:
 
@@ -41,7 +41,7 @@ importers:
         version: 3.9.6
       sober:
         specifier: 1.1.10
-        version: 1.1.10(patch_hash=21ec38e19899040c56bf7b01de62686d0a9abf7cb8d400d9baa1e212e2f8429d)
+        version: 1.1.10(patch_hash=210049186427659464cebd44889644eafc812d7376452d4c880a0d82dd7488b6)
       utf8:
         specifier: ^3.0.0
         version: 3.0.0
@@ -2671,7 +2671,7 @@ snapshots:
 
   shell-quote@1.10.0: {}
 
-  sober@1.1.10(patch_hash=21ec38e19899040c56bf7b01de62686d0a9abf7cb8d400d9baa1e212e2f8429d): {}
+  sober@1.1.10(patch_hash=210049186427659464cebd44889644eafc812d7376452d4c880a0d82dd7488b6): {}
 
   source-map-js@1.2.1: {}
 
