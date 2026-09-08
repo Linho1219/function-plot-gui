@@ -75,7 +75,7 @@ const folded = ref(true);
 
 import { Snackbar } from "sober";
 
-const formattedCodePre = ref<HTMLPreElement>();
+// const formattedCodePre = ref<HTMLPreElement>();
 function copyCode() {
   try {
     navigator.clipboard.writeText(formatted.value);

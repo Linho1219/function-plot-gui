@@ -1,0 +1,5 @@
+allowBuilds:
+  '@parcel/watcher': true
+patchedDependencies:
+  function-plot: "patches/function-plot.patch"
+  sober: "patches/sober.patch"

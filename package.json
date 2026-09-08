@@ -5,47 +5,41 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "typecheck": "vue-tsc --noEmit",
+    "build-only": "vite build",
+    "build": "run-p typecheck build-only",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@prettier/sync": "^0.5.5",
-    "@vueuse/core": "^13.9.0",
+    "@prettier/sync": "^0.6.1",
+    "@vueuse/core": "^14.4.0",
     "base-64": "^1.0.0",
     "function-plot": "2.0.0-0",
     "json5": "^2.2.3",
     "lodash-es": "^4.18.1",
     "mitt": "^3.0.1",
-    "pinia": "^3.0.4",
-    "prettier": "^3.8.3",
-    "sober": "1.1.9",
+    "pinia": "^4.0.3",
+    "prettier": "^3.9.6",
+    "sober": "1.1.10",
     "utf8": "^3.0.0",
-    "vue": "^3.5.34",
+    "vue": "^3.5.42",
     "vue-color-kit": "^1.0.6",
     "vue-draggable-plus": "^0.6.1",
-    "vue-i18n": "^11.4.4"
+    "vue-i18n": "^11.4.10"
   },
   "devDependencies": {
     "@types/base-64": "^1.0.2",
     "@types/lodash-es": "^4.17.12",
-    "@types/node": "^22.19.19",
+    "@types/node": "^26.4.1",
     "@types/utf8": "^3.0.3",
-    "@vitejs/plugin-vue": "^6.0.7",
-    "@vitejs/plugin-vue-jsx": "^5.1.5",
-    "dotenv": "^16.6.1",
-    "rollup-plugin-visualizer": "^5.14.0",
-    "sass-embedded": "^1.100.0",
-    "typescript": "~5.6.3",
-    "vite": "^8.0.14",
-    "vue-tsc": "^2.2.12"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "function-plot": "patches/function-plot.patch",
-      "sober": "patches/sober.patch"
-    },
-    "ignoredBuiltDependencies": [
-      "@parcel/watcher"
-    ]
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vitejs/plugin-vue-jsx": "^5.1.6",
+    "dotenv": "^17.4.2",
+    "npm-run-all2": "^9.0.3",
+    "rollup-plugin-visualizer": "^7.1.1",
+    "sass-embedded": "^1.104.0",
+    "typescript": "~6.0.3",
+    "vite": "^8.2.2",
+    "vue-tsc": "^3.3.11"
   }
 }
